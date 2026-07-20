@@ -5,6 +5,44 @@ A complete implementation of the **Transformer** architecture introduced in the 
 
 This project was developed as a learning exercise to understand every core component of the Transformer architecture without using PyTorch's built-in `nn.Transformer` module.
 
+## Repository Structure
+
+This repository provides the Transformer implementation in **two different formats** to suit different learning preferences.
+
+### 1. CompleteTransformer.py
+
+A **single-file implementation** that contains the entire Transformer architecture in one file, including:
+
+- Token Embedding
+- Positional Encoding
+- Multi-Head Attention
+- Feed Forward Network
+- Encoder
+- Decoder
+- Complete Transformer Pipeline
+
+This version is useful for understanding the complete architecture in one place.
+
+---
+
+### 2. Modular Implementation
+
+The same Transformer architecture is also organized into separate modules:
+
+```
+embedding.py
+PositionalEncoding.py
+MultiHeadAttention.py
+FeedForward.py
+Encoder.py
+Decoder.py
+TransformerPipeline.py
+```
+
+This version follows a modular project structure similar to real-world deep learning projects, making the code easier to read, maintain, and extend.
+
+Both implementations produce the same Transformer architecture; the only difference is how the code is organized.
+
 ---
 
 ## Features
