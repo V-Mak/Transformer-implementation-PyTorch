@@ -211,7 +211,3 @@ It serves as a strong foundation for learning advanced Transformer-based models 
 3. The Illustrated Transformer — Jay Alammar
 
 ---
-
----
-
-⭐ If you found this repository helpful, consider giving it a **Star** on GitHub.
